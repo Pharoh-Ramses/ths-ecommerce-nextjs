@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
 				port: "",
 				pathname: "/**",
 			},
+			{
+				protocol: "https",
+				hostname: "cdn.jsdelivr.net",
+				port: "",
+				pathname: "/gh/homarr-labs/dashboard-icons/svg/**",
+			},
 		],
 	},
 };

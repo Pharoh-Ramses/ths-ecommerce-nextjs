@@ -73,3 +73,19 @@
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 3;
 }
+
+/* Focus styles for better accessibility */
+input:focus,
+button:focus {
+	outline: 2px solid var(--color-dark-900);
+	outline-offset: 2px;
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 640px) {
+	.text-heading-responsive {
+		font-size: var(--text-heading-3);
+		line-height: var(--text-heading-3--line-height);
+		font-weight: var(--text-heading-3--font-weight);
+	}
+}
